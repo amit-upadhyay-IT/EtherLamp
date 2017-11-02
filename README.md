@@ -1,0 +1,2 @@
+# EtherLamp
+A blockchain wallet. 
