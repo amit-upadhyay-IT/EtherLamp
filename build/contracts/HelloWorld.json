@@ -1,0 +1,21 @@
+{
+  "contract_name": "HelloWorld",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600e57600080fd5b5b60646000555b5b60368060236000396000f30060606040525b600080fd00a165627a7a72305820b89ce74b839ef1fd5368cd619f973deddc7300c835ddc1198580a9865245be2c0029",
+  "networks": {
+    "1509809169821": {
+      "events": {},
+      "links": {},
+      "address": "0xe97f1d8deb13cef964528a2f489f40d409e7b0c6",
+      "updated_at": 1509809175850
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1509809175850
+}
