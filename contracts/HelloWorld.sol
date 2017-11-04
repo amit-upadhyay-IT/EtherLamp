@@ -4,6 +4,6 @@ contract HelloWorld
 
     function HelloWorld()
     {
-        this.balance = balance;
+        balance = 100;
     }
 }
