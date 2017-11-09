@@ -69,10 +69,32 @@ public class ExampleThreading {
   }
 }
 
+```
 
+**Difference between implementing Runnable and extending Thread**
 
+Implementing Runnable to use Threading is better because in Java we don't have multiple inheritance, so here as Thread is parent class of A, so it is not possible to have any other parent of A where as if we use Runnable interface then we can even have a parent of class A (other than the Thread class).
 
+**Thread States**
 
+A java Thread is always in one of the several states which could be :
+
+1. New Thread
+1. Runnable
+1. Not Runnable
+1. Dead
+
+So, there are 4 stages of thread in its whole life
+
+- **1 st state : New Thread**
+
+A Thread is in this state when the instantiate of a Thread object gets created but doesn't get started.] A Thread starts life in the Ready-to-run state. You can call only the start() or stop() method when the thread is in this state. Calling any method besides start() or stop() cause an IllegalThreadStateException ( A descendant class of RuntimeException)
+
+- **2 nd state: Runnable**
+
+When the start() method is invoked on a new Thread() it gets to the runnable state r running state by calling run() method.
+
+A Runnable thread may actually be running or may be waiting its turn to run.
 
 
 
